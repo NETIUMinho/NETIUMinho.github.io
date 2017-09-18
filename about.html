@@ -5,9 +5,9 @@
       <link href="files/shift/shift.css" rel="stylesheet"/>
 
       <link rel="stylesheet" href="css/bootstrap.css"/>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
       
       <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
-      <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
       <link href="css/text.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
@@ -16,6 +16,9 @@
       
       <title>NETIUM</title>
       <link rel="shortcut icon" href="files/img/logo.png" />
+      <script src="js/jquery-3.2.1.min.js"></script>
+	 <!-- Latest compiled and minified JavaScript -->
+	 <script src="js/bootstrap.min.js"></script>
       
   </head>
   <body>                           
@@ -62,76 +65,49 @@
         </nav>
       </div> <!-- End of NavBar-->
 
-      <div id="content-wrapper">
-      <!-- Page Content -->
-        <div class="container-fluid">
-        
-          <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="files/img/activities.png" alt="..." width="1350" height="420">
-                <div class="carousel-caption">
-                  <h1 class="animated bounceInDown">Atividades que organizamos:</h1>
-                  <div id="activities">                
-                    <ul>
-                        <li class="animated bounceInLeft">Workshops</li>
-                        <li class="animated bounceInRight">Palestras</li>
-                        <li class="animated bounceInLeft">Visitas a empresas</li>
-                        <li class="animated bounceInRight">Torneios Desportivos</li>
-                        <li class="animated bounceInLeft">Etc.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <a target="_blank" href="http://netium.typeform.com/to/hHmDCn"><img src="files/img/cartaz_socios.png" alt="S&oacute;cios" width="1350" height="420"></a>
-                <div class="carousel-caption">
-                </div>
-              </div>
-              <div class="item">
-                <img src="files/img/comunicamais.png" alt="..." width="1350" height="420">
-                <div class="carousel-caption">
-                </div>
-              </div>
-              
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-          </div> <!-- Carousel -->    
-        </div>  <!-- Container -->
-      <!-- End Page Content -->
-      </div>
-      
     
+      <div class="jumbotron">
+        <div class="container">
+          <h4><a href="index.html">Home</a>/Sobre</h4>
+        </div>
+      </div>
+     
     <div class="container-fluid">
-        <div id="row1" class="row row-padded">
-          
-          <h2>Parceiros Institucionais</h2>          
-          
-          <div class="col">
-            <a href="http://www.eng.uminho.pt" target="_blank"><img src="files/img/partner1.png"></a>
-          </div>
-          <div class="col">
-            <a href="http://www.aaum.pt" target="_blank"><img src="files/img/partner2.png"></a>
-          </div>
-          
+      <div id="row-about" class="row">
+        <h2>O que &eacute; o NETIUM?</h2>
+        <p id="about-p1">NETIUM &eacute; o acr&oacute;nimo para N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho. &eacute; uma organiza&ccedil;&atilde;o sem fins lucrativos e n&atilde;o possui qualquer rela&ccedil;&atilde;o com partidos pol&iacute;ticos, doutrinas religiosas ou filos&oacute;ficas. </p>
+        <p id="about-p1">O NETIUM tem como miss&atilde;o representar o nome do curso perante os &oacute;rg&atilde;os diretivos da universidade, empresas, outras universidades e escolas secund&aacute;rias.
+N&uacute;cleo composto por alunos volunt&aacute;rios que pretendem zelar pelos direitos e interesses dos alunos do curso MIETI (Mestrado Integrado em Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica) da Universidade do Minho.</p>
       </div>
     </div>
     
+    <br>
+    <br>
+    
+    
+    
+    <div class="container-fluid">
+      <div id="row-about2" class="row row-centered">
+        <div class="col-md-4 col-centered">
+          <h3 id="about-h3">Hist&oacute;ria:</h3>
+          <br>
+          <p id="about-history">O NETIUM foi criado a 20 de julho de 2017, este &eacute; sucessor de uma extinta associa&ccedil;&atilde;o denominada NEECUM (N&uacute;cleo de Estudantes de Engenharia de Comunica&ccedil;&otilde;es da Universidade do Minho). Com a mudan&ccedil;a de nome do curso, anteriormente denominado MIECOM (Mestrado Integrado em Engenharia de Comunica&ccedil;&otilde;es), foi necess&aacute;ria a reestrutura&ccedil;&atilde;o desta associa&ccedil;&atilde;o com o intuito de a tornar atual e coerente. A data de cria&ccedil;&atilde;o do NEECUM foi a 10 de maio de 2010 tendo exercido fun&ccedil;&otilde;es at&eacute; ao nascimento do NETIUM.</p>
+        </div>
+        <div class="col-md-4 col-centered">
+          <h3 id="about-h3">Objetivos:</h3>
+          <br>
+          <ul id="about-objetivos">
+            <li>Defender e zelar pelos direitos e interesses dos estudantes do curso MIETI;</li>
+            <li>Representar os estudantes do curso MIETI e ser respons&aacute;veis pela sua organiza&ccedil;&atilde;o;</li>
+            <li>Organizar e promover atividades de teor pedag&oacute;gico (palestras, workshops, visitas a empresas e institui&ccedil;&otilde;es, sess&otilde;es de esclarecimento, etc.), com o intuito de desenvolver as compet&ecirc;ncias profissionais dos alunos nas &aacute;reas das Telecomunica&ccedil;&otilde;es e Inform&aacute;tica;</li>
+            <li>Fortalecer as rela&ccedil;&otilde;es humanas entre os estudantes do curso MIETI atrav&eacute;s da organiza&ccedil;&atilde;o de atividades de teor recreativo e cultural (torneios desportivos, conv&iacute;vios, etc.);</li>
+            <li>Sensibilizar a comunidade estudantil das escolas secund&aacute;rias para a import&acirc;ncia de ingressar no ensino superior e sobretudo na &aacute;rea da Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica;</li>
+            <li>Angariar fundos que financiem todas as atividades organizadas pelo NETIUM.</li>
+          </ul>
+        </div>
+        
+      </div>  
+      
     <div class="container-fluid">
         <div id="row2"class="row">          
             <div class="col-md-4">
@@ -184,9 +160,7 @@
         </footer>
                 
     
-      <script src="js/jquery-3.2.1.min.js"></script>
-	 <!-- Latest compiled and minified JavaScript -->
-	 <script src="js/bootstrap.min.js"></script>
+      
        
   </body>
 </html>
