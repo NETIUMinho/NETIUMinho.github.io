@@ -7,18 +7,19 @@
       <link rel="stylesheet" href="css/bootstrap.css"/>
       
       <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
-      <link href="css/text.css" rel="stylesheet" type="text/css"/>
+      <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
       
-      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
       
       <title>NETIUM</title>
       <link rel="shortcut icon" href="files/img/logo.png" />
       
   </head>
   <body>                           
-      <div class="navigation_bar">
+       <div class="navigation_bar">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
@@ -35,23 +36,21 @@
             </div>
             <div id="navbar3" class="navbar-collapse collapse">
               <!-- Items of Navbar -->
-              <ul class="nav navbar-nav navbar-right">
-                
-                <li><a class="page-scroll" href="about.html">Sobre</a></li>
-                <li><a class="page-scroll" href="team.html">Equipa</a></li>
-                <li><a class="page-scroll" href="partners.html">Parcerias</a></li>
+              <ul class="nav navbar-nav navbar-right"> 
+                <li><a class="page-scroll" href="about.html">SOBRE</a></li>
+                <li class="active"><a class="page-scroll" href="team.html">EQUIPA</a></li>
+                <li><a class="page-scroll" href="partners.html">PARCERIAS</a></li>
                 <li class="dropdown page-scroll">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
-                  
-                  <ul class="dropdown-menu">
+                  <a href="" class="dropdown-toggle" id="drop" data-toggle="dropdown">DOCUMENTOS <b class="caret"></b></a>
+                  <ul class="dropdown-menu" aria-labelledby="drop">
                     <li><a href="regulamento.html">Regulamento Interno</a></li>
                     <li><a href="contas.html">Relat&oacute;rio de Contas</a></li>
                     <li><a href="atividades.html">Relat&oacute;rio de Atividades</a></li>
-                  </ul>
-                  
+                  </ul>   
                 </li>
-                <li><a class="page-scroll" href="contacts.html">Contactos</a></li>
-                
+                <li id="link-contactos" ><a class="page-scroll" href="contacts.html">CONTACTOS</a></li>
+                <li id="li-socio"><a  id="navbar-socio" class="page-scroll" href="http://netium.typeform.com/to/hHmDCn" target="_blank">TORNA-TE SÓCIO</a></li>
+
               </ul>
               
             </div>
@@ -61,171 +60,165 @@
         </nav>
       </div> <!-- End of NavBar-->
 
-    <div id="jumbotron-team" class="jumbotron">
-        <div class="container">
-          <h4><a href="index.html">Home</a>/Equipa</h4>
-        </div>
-      </div>  
    
-   
-    <div class="container-fluid">
+    <div class="container-fluid firstrow">
       <div id="row-team1" class="row">
-        <h1>Dire&ccedil;&atilde;o</h1>
+        <h2 class="orangetitle">Dire&ccedil;&atilde;o</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/nuno.jpg" />
           
           <h4>Nuno Tavares</h4>
-          <h5>Presidente</h5>
+          <h5 class="cargo">Presidente</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/luispedro.jpg" />
            
           <h4>Lu&iacute;s Ara&uacute;jo</h4>
-           <h5>Vice-Presidente</h5>
+           <h5 class="cargo">Vice-Presidente</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/helder.jpg" />
            <h4>H&eacute;lder Gomes</h4>
-           <h5>Tesoureiro</h5>
+           <h5 class="cargo">Tesoureiro</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/sara.jpg" />
            <h4>Sara Pereira</h4>
-           <h5>Secret&aacute;ria</h5>
+           <h5 class="cargo">Secret&aacute;ria</h5>
          </div>
       </div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid row-grey">
       <div id="row-team1" class="row">
-        <h1>Departamento Pedag&oacute;gico</h1>
+        <h2 class="bluetitle">Departamento Pedag&oacute;gico</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/manuel.jpg" />
             <h4>Manuel Coutinho</h4>
-           <h5>Diretor</h5>
+           <h5 class="cargo">Diretor</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/luisa.jpg" />
            <h4>Lu&iacute;sa Sim&otilde;es</h4>
-           <h5>Colaboradora</h5>
+           <h5 class="cargo">Colaboradora</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/afonso.jpg" />
            <h4>Afonso Alves</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/rui.jpg" />
            <h4>Rui Silva</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/marco.jpg" />
            <h4>Marco Pereira</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
       </div>
     </div>
     
     <div class="container-fluid">
       <div id="row-team1" class="row">
-        <h1>Departamento Recreativo</h1>
+        <h2 class="orangetitle">Departamento Recreativo</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/franciscosilva.jpg" />
             <h4>Francisco Silva</h4>
-           <h5>Diretor</h5>
+           <h5 class="cargo">Diretor</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/ant&oacute;nio.jpg" />
            <h4>Ant&oacute;nio Louren&ccedil;o</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
 
       </div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid row-grey">
       <div id="row-team1" class="row">
-        <h1>Departamento de Comunica&ccedil;&atilde;o e Imagem</h1>
+        <h2 class="bluetitle">Departamento de Comunica&ccedil;&atilde;o e Imagem</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/alexandra.jpg" />
             <h4>Alexandra Leite</h4>
-           <h5>Diretora</h5>
+           <h5 class="cargo">Diretora</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/alex.png" />
            <h4>Alexandre Vieira</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/jos&eacute;.jpg" />
            <h4>Jos&eacute; Mateus</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
         
         <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/david.jpg" />
           <h4>David Santos</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
       </div>
     </div>
     
     <div class="container-fluid">
       <div id="row-team1" class="row">
-        <h1>Departamento de Sa&iacute;das Profissionais e Empreendedorismo</h1>
+        <h2 class="orangetitle">Departamento de Sa&iacute;das Profissionais e Empreendedorismo</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/helderfreitas.jpg" />
             <h4>H&eacute;lder Freitas</h4>
-           <h5>Diretor</h5>
+           <h5 class="cargo">Diretor</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/eduardo.jpg" />
            <h4>Eduardo Silva</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/gilberto.jpg" />
            <h4>Gilberto Morim</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
         
         <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/luis.jpg" />
           <h4>Lu&iacute;s Ferreira</h4>
-           <h5>Colaborador</h5>
+           <h5 class="cargo">Colaborador</h5>
          </div>
       </div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid row-grey">
       <div id="row-team1" class="row">
-        <h1>Conselho Fiscal</h1>
+        <h2 class="bluetitle">Conselho Fiscal</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
            <img class="img-responsive" src="files/img/members/joaopereira.jpg" />
           <h4>Jo&atilde;o Pereira</h4>
-           <h5>Presidente</h5>
+           <h5 class="cargo">Presidente</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/ricardo.jpg" />
            <h4>Ricardo Rodrigues</h4>
-           <h5>Vice-Presidente</h5>
+           <h5 class="cargo">Vice-Presidente</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/joaofpereira.jpg" />
            <h4>Jo&atilde;o F. Pereira</h4>
-           <h5>Secret&aacute;rio</h5>
+           <h5 class="cargo">Secret&aacute;rio</h5>
          </div>
       </div>
    
@@ -233,77 +226,67 @@
      
      <div class="container-fluid">
       <div id="row-team1" class="row">
-        <h1>AGETIUM (Mesa da Assembleia Geral)</h1>
+        <h2 class="orangetitle">AGETIUM (Mesa da Assembleia Geral)</h2>
         <br>
         <div class="col-md-2 col-md-offset-1">
-           <img class="img-responsive" src="files/img/members/artur.jpg" />
+           <img class="img-responsive " src="files/img/members/artur.jpg" />
           <h4>Artur Almeida</h4>
-           <h5>Presidente</h5>
+           <h5 class="cargo">Presidente</h5>
          </div>
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/franciscoduarte.jpg" />
            <h4>Francisco Duarte</h4>
-           <h5>Vice-Presidente</h5>
+           <h5 class="cargo">Vice-Presidente</h5>
          </div>
 
          <div class="col-md-2">
            <img class="img-responsive" src="files/img/members/pedro.jpg" />
            <h4>Pedro Rocha</h4>
-           <h5>Secret&aacute;rio</h5>
+           <h5 class="cargo">Secret&aacute;rio</h5>
          </div>
       </div>
     </div>
     
   
-    <div class="container-fluid">
-        <div id="row2"class="row">          
-            <div class="col-md-4">
-              <h3>Quem somos?</h3>
-              <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
-            </div>
-            <div class="col-md-4">
-              <h3>Links &Uacute;teis</h3>
-              <div id="links">                
-                  <ul>
-                      <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
-                      <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
-                      <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h3>Segue-nos</h3>
-              <div class="btn-group-wrap">
-                <div class="btn-group">
-                  <a class="btn btn-default" href="http://www.facebook.com/netiuminho/" target="_blank">
-                    <i class="fa fa-facebook" title="Facebook"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://www.instagram.com/netiuminho/" target="_blank">
-                    <i class="fa fa-instagram" title="Instagram"></i>
-                  </a>  
-                  <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
-                    <i class="fa fa-linkedin" title="Linkedin"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
-                    <i class="fa fa-github" title="Github"></i>
-                  </a>
-                </div>
-              </div>
-              
-              
-            </div>
-        </div>
-    </div>
-      <br>
-      
-      <!-- Footer -->
+    <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; NETIUM</p>
+          <div class="container-fluid">
+            <div id="row2"class="row">          
+              <div class="col-md-4">
+                <h3 class="h3-footer">Quem somos?</h3>
+                <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Links &Uacute;teis</h3>
+                <div id="links">                
+                    <ul>
+                        <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
+                        <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
+                        <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
+                    </ul>
                 </div>
-            </div>
-            <!-- /.row -->
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Segue-nos</h3>
+                <div class="btn-group-wrap">
+                  <div class="btn-group">
+                    <a class="btn btn-default" href="http://www.facebook.com/neecum/" target="_blank">
+                      <i class="fa fa-facebook" title="Facebook"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://www.instagram.com/neecum_oficial/" target="_blank">
+                      <i class="fa fa-instagram" title="Instagram"></i>
+                    </a>  
+                    <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
+                      <i class="fa fa-linkedin" title="Linkedin"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
+                      <i class="fa fa-github" title="Github"></i>
+                    </a>
+                  </div>
+                </div>
+                <p id="copyright">Copyright &copy; NETIUM</p>
+              </div>
+           </div>
         </footer>
                 
     

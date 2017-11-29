@@ -8,11 +8,11 @@
       <link rel="stylesheet" href="css/bootstrap.min.css"/>
       
       <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
-      <link href="css/text.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
       
-      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
       
       <title>NETIUM</title>
       <link rel="shortcut icon" href="files/img/logo.png" />
@@ -22,7 +22,7 @@
       
   </head>
   <body>                           
-      <div class="navigation_bar">
+       <div class="navigation_bar">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
@@ -39,23 +39,21 @@
             </div>
             <div id="navbar3" class="navbar-collapse collapse">
               <!-- Items of Navbar -->
-              <ul class="nav navbar-nav navbar-right">
-                
-                <li><a class="page-scroll" href="about.html">Sobre</a></li>
-                <li><a class="page-scroll" href="team.html">Equipa</a></li>
-                <li><a class="page-scroll" href="partners.html">Parcerias</a></li>
+              <ul class="nav navbar-nav navbar-right"> 
+                <li class="active"><a class="page-scroll" href="about.html">SOBRE</a></li>
+                <li><a class="page-scroll" href="team.html">EQUIPA</a></li>
+                <li><a class="page-scroll" href="partners.html">PARCERIAS</a></li>
                 <li class="dropdown page-scroll">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
-                  
-                  <ul class="dropdown-menu">
+                  <a href="" class="dropdown-toggle" id="drop" data-toggle="dropdown">DOCUMENTOS <b class="caret"></b></a>
+                  <ul class="dropdown-menu" aria-labelledby="drop">
                     <li><a href="regulamento.html">Regulamento Interno</a></li>
                     <li><a href="contas.html">Relat&oacute;rio de Contas</a></li>
                     <li><a href="atividades.html">Relat&oacute;rio de Atividades</a></li>
-                  </ul>
-                  
+                  </ul>   
                 </li>
-                <li><a class="page-scroll" href="contacts.html">Contactos</a></li>
-                
+                <li id="link-contactos" ><a class="page-scroll" href="contacts.html">CONTACTOS</a></li>
+                <li id="li-socio"><a  id="navbar-socio" class="page-scroll" href="http://netium.typeform.com/to/hHmDCn" target="_blank">TORNA-TE SÓCIO</a></li>
+
               </ul>
               
             </div>
@@ -65,28 +63,43 @@
         </nav>
       </div> <!-- End of NavBar-->
 
-    
-      <div class="jumbotron">
-        <div class="container">
-          <h4><a href="index.html">Home</a>/Sobre</h4>
-        </div>
-      </div>
      
-    <div class="container-fluid">
-      <div id="row-about" class="row">
-        <h2>O que &eacute; o NETIUM?</h2>
-        <p id="about-p1">NETIUM &eacute; o acr&oacute;nimo para N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho. &eacute; uma organiza&ccedil;&atilde;o sem fins lucrativos e n&atilde;o possui qualquer rela&ccedil;&atilde;o com partidos pol&iacute;ticos, doutrinas religiosas ou filos&oacute;ficas. </p>
-        <p id="about-p1">O NETIUM tem como miss&atilde;o representar o nome do curso perante os &oacute;rg&atilde;os diretivos da universidade, empresas, outras universidades e escolas secund&aacute;rias.
-N&uacute;cleo composto por alunos volunt&aacute;rios que pretendem zelar pelos direitos e interesses dos alunos do curso MIETI (Mestrado Integrado em Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica) da Universidade do Minho.</p>
+    <div class="container-fluid firstrow">
+      <div class="row">
+        <h2 class="orangetitle">O que &eacute; o NETIUM?</h2>
+        <p class="about-p1">
+          NETIUM &eacute; o acr&oacute;nimo para N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho. &eacute; uma organiza&ccedil;&atilde;o sem fins lucrativos e n&atilde;o possui qualquer rela&ccedil;&atilde;o com partidos pol&iacute;ticos, doutrinas religiosas ou filos&oacute;ficas. 
+        </p>
+        <p class="about-p1">
+          O NETIUM tem como miss&atilde;o representar o nome do curso perante os &oacute;rg&atilde;os diretivos da universidade, empresas, outras universidades e escolas secund&aacute;rias.
+          N&uacute;cleo composto por alunos volunt&aacute;rios que pretendem zelar pelos direitos e interesses dos alunos do curso MIETI (Mestrado Integrado em Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica) da Universidade do Minho.
+      </p>
       </div>
+    </div>    
+    <br>
+    <div class="container-fluid row-grey">
+      <div class="row">
+        <h2 class="bluetitle">História</h2>
+        <p class="about-p1">O NETIUM foi criado a 20 de julho de 2017, este &eacute; sucessor de uma extinta associa&ccedil;&atilde;o denominada NEECUM (N&uacute;cleo de Estudantes de Engenharia de Comunica&ccedil;&otilde;es da Universidade do Minho). Com a mudan&ccedil;a de nome do curso, anteriormente denominado MIECOM (Mestrado Integrado em Engenharia de Comunica&ccedil;&otilde;es), foi necess&aacute;ria a reestrutura&ccedil;&atilde;o desta associa&ccedil;&atilde;o com o intuito de a tornar atual e coerente. A data de cria&ccedil;&atilde;o do NEECUM foi a 10 de maio de 2010 tendo exercido fun&ccedil;&otilde;es at&eacute; ao nascimento do NETIUM.</p>
+      </div>
+      <br>
     </div>
     
-    <br>
-    <br>
-    
-    
-    
     <div class="container-fluid">
+      <div class="row">
+        <h2 class="orangetitle">Objectivos</h2>
+        <ul class="about-p1" id="about-objetivos">
+            <li>Defender e zelar pelos direitos e interesses dos estudantes do curso MIETI;</li>
+            <li>Representar os estudantes do curso MIETI e ser respons&aacute;veis pela sua organiza&ccedil;&atilde;o;</li>
+            <li>Organizar e promover atividades de teor pedag&oacute;gico (palestras, workshops, visitas a empresas e institui&ccedil;&otilde;es, sess&otilde;es de esclarecimento, etc.), com o intuito de desenvolver as compet&ecirc;ncias profissionais dos alunos nas &aacute;reas das Telecomunica&ccedil;&otilde;es e Inform&aacute;tica;</li>
+            <li>Fortalecer as rela&ccedil;&otilde;es humanas entre os estudantes do curso MIETI atrav&eacute;s da organiza&ccedil;&atilde;o de atividades de teor recreativo e cultural (torneios desportivos, conv&iacute;vios, etc.);</li>
+            <li>Sensibilizar a comunidade estudantil das escolas secund&aacute;rias para a import&acirc;ncia de ingressar no ensino superior e sobretudo na &aacute;rea da Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica;</li>
+            <li>Angariar fundos que financiem todas as atividades organizadas pelo NETIUM.</li>
+          </ul>
+      </div>
+    </div>
+
+   <!--  <div class="container-fluid">
       <div id="row-about2" class="row row-centered">
         <div class="col-md-4 col-centered">
           <h3 id="about-h3">Hist&oacute;ria:</h3>
@@ -106,57 +119,47 @@ N&uacute;cleo composto por alunos volunt&aacute;rios que pretendem zelar pelos d
           </ul>
         </div>
         
-      </div>  
+      </div>  --> 
       
-    <div class="container-fluid">
-        <div id="row2"class="row">          
-            <div class="col-md-4">
-              <h3>Quem somos?</h3>
-              <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
-            </div>
-            <div class="col-md-4">
-              <h3>Links &Uacute;teis</h3>
-              <div id="links">                
-                  <ul>
-                      <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
-                      <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
-                      <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h3>Segue-nos</h3>
-              <div class="btn-group-wrap">
-                <div class="btn-group">
-                  <a class="btn btn-default" href="http://www.facebook.com/netiuminho/" target="_blank">
-                    <i class="fa fa-facebook" title="Facebook"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://www.instagram.com/netiuminho/" target="_blank">
-                    <i class="fa fa-instagram" title="Instagram"></i>
-                  </a>  
-                  <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
-                    <i class="fa fa-linkedin" title="Linkedin"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
-                    <i class="fa fa-github" title="Github"></i>
-                  </a>
-                </div>
-              </div>
-              
-              
-            </div>
-        </div>
-    </div>
-      <br>
-      
-      <!-- Footer -->
+    <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; NETIUM</p>
+          <div class="container-fluid">
+            <div id="row2"class="row">          
+              <div class="col-md-4">
+                <h3 class="h3-footer">Quem somos?</h3>
+                <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Links &Uacute;teis</h3>
+                <div id="links">                
+                    <ul>
+                        <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
+                        <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
+                        <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
+                    </ul>
                 </div>
-            </div>
-            <!-- /.row -->
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Segue-nos</h3>
+                <div class="btn-group-wrap">
+                  <div class="btn-group">
+                    <a class="btn btn-default" href="http://www.facebook.com/neecum/" target="_blank">
+                      <i class="fa fa-facebook" title="Facebook"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://www.instagram.com/neecum_oficial/" target="_blank">
+                      <i class="fa fa-instagram" title="Instagram"></i>
+                    </a>  
+                    <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
+                      <i class="fa fa-linkedin" title="Linkedin"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
+                      <i class="fa fa-github" title="Github"></i>
+                    </a>
+                  </div>
+                </div>
+                <p id="copyright">Copyright &copy; NETIUM</p>
+              </div>
+           </div>
         </footer>
                 
     

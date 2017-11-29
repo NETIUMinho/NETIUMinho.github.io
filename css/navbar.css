@@ -1,5 +1,6 @@
 .navbar {
-   background:rgba(0,0,0,0.9);   /* for latest browsers */
+   background: white;   /* for latest browsers */
+   opacity: 0.9;
 }
 
 
@@ -15,15 +16,65 @@
 .navigation_bar .navbar-brand {
   height: 80px;
 }
-
+ 
+/*links navbar */
 .navigation_bar .nav >li >a {
   padding-top: 30px;
   padding-bottom: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #356fa9;
+  transition: all 0.2s ease-in-out;
 }
+
+/*navbar link hover*/
+.navigation_bar .nav >li >a:hover{
+  border-bottom: 5px solid #6385A8;
+  color: #557FA8;
+}
+
+/*navbar dropdown focus*/
+#drop{
+  background-color: white;
+  color: #356fa9;
+  transition: color 0.2s ease-in-out;
+  border-bottom: none;
+}
+
+#drop:hover{
+  color: #557FA8;
+  border-bottom: none;
+  /*padding-top: 20px;
+  border: 1px solid grey;
+  border-bottom: 1px solid white;
+  margin-top: 10px;*/
+}
+
 .navigation_bar .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+/*active navbar link*/
+#navbar3 > ul > li.active > a {
+  border-bottom: 5px solid #557FA8;
+  color: #557FA8;
+  background-color: white;
+}
+
+@media (max-width: 481px) {
+  #navbar3 > ul > li.active > a {
+    border: none;
+  }
+  .navigation_bar .nav >li >a:hover{
+    border: none;
+  }
+  #navbar-socio{
+    width: 60%;
+  }
+  #li-socio:hover{
+    box-shadow: none;
+  }
+ }
 
 .navbar-alignit .navbar-header {
 	  -webkit-transform-style: preserve-3d;
@@ -42,18 +93,47 @@
 }
 
 
-
+/*navbar link dropdown*/
 .navbar-nav>li>.dropdown-menu {
 	z-index: 9999;
+  left: 0;
+  right: inherit;
+  border: none;
 }
-
-
 
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
 li.dropdown .dropdown-menu{
-  background-color: rgba(0,0,0,0.9);
+  background-color: white;
 }
 
+/*navbar "socio" link*/
+#navbar-socio{
+  border-bottom: 3px solid #F27048;
+  border-top: 3px solid #F27048;
+  border-left: 3px solid #F27048;
+  border-right: 3px solid #F27048;
+  padding-top: 20px;
+  color: #F27048;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  /*transition-timing-function: ease-in-out;*/
+}
+
+#link-contactos{
+  margin-right: 1em;
+}
+
+#navbar-socio:hover{
+  background-color: #F27F5C;
+  color: white;
+  border-color: #F27F5C;
+}
+#li-socio{
+  margin-top: 7px;
+}
+#li-socio:hover{
+  box-shadow: 0px 5px 30px #FFBEAA;
+}
 

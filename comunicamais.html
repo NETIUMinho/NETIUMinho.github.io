@@ -2,15 +2,17 @@
 <html lang="pt">
     
   <head>          
-      <link href="files/shift/shift.css" rel="stylesheet"/>
+     <link href="files/shift/shift.css" rel="stylesheet"/>
 
       <link rel="stylesheet" href="css/bootstrap.css"/>
       <link rel="stylesheet" href="css/bootstrap.min.css"/>
       
       <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
-      <link href="css/text.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
+      
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
       
       <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
       
@@ -22,7 +24,7 @@
       
   </head>
   <body>                           
-      <div class="navigation_bar">
+       <div class="navigation_bar">
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
@@ -39,23 +41,21 @@
             </div>
             <div id="navbar3" class="navbar-collapse collapse">
               <!-- Items of Navbar -->
-              <ul class="nav navbar-nav navbar-right">
-                
-                <li><a class="page-scroll" href="about.html">Sobre</a></li>
-                <li><a class="page-scroll" href="team.html">Equipa</a></li>
-                <li><a class="page-scroll" href="partners.html">Parcerias</a></li>
+              <ul class="nav navbar-nav navbar-right"> 
+                <li><a class="page-scroll" href="about.html">SOBRE</a></li>
+                <li><a class="page-scroll" href="team.html">EQUIPA</a></li>
+                <li><a class="page-scroll" href="partners.html">PARCERIAS</a></li>
                 <li class="dropdown page-scroll">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown">Documentos <b class="caret"></b></a>
-                  
-                  <ul class="dropdown-menu">
+                  <a href="" class="dropdown-toggle" id="drop" data-toggle="dropdown">DOCUMENTOS <b class="caret"></b></a>
+                  <ul class="dropdown-menu" aria-labelledby="drop">
                     <li><a href="regulamento.html">Regulamento Interno</a></li>
                     <li><a href="contas.html">Relat&oacute;rio de Contas</a></li>
                     <li><a href="atividades.html">Relat&oacute;rio de Atividades</a></li>
-                  </ul>
-                  
+                  </ul>   
                 </li>
-                <li><a class="page-scroll" href="contacts.html">Contactos</a></li>
-                
+                <li id="link-contactos" ><a class="page-scroll" href="contacts.html">CONTACTOS</a></li>
+                <li id="li-socio"><a  id="navbar-socio" class="page-scroll" href="http://netium.typeform.com/to/hHmDCn" target="_blank">TORNA-TE SÓCIO</a></li>
+
               </ul>
               
             </div>
@@ -65,16 +65,10 @@
         </nav>
       </div> <!-- End of NavBar-->
 
-    
-      <div class="jumbotron">
-        <div class="container">
-          <h4><a href="index.html">Home</a>/Comunica+</h4>
-        </div>
-      </div>
      
-    <div class="container-fluid">
+    <div class="container-fluid firstrow">
       <div id="row-about" class="row">
-        <h2>Jornadas Comunica+ - 7ª Edi&ccedil;&atilde;o</h2>
+        <h2 class="h2-grey-md">Jornadas Comunica+ - 7ª Edi&ccedil;&atilde;o</h2>
         <br>
         <br>
         <p id="about-p1">As Jornadas Comunica+ est&atilde;o de volta para a sua 7ª Edi&ccedil;&atilde;o.</p>
@@ -224,55 +218,45 @@
         
       </div>  
       
-    <div class="container-fluid">
-        <div id="row2"class="row">          
-            <div class="col-md-4">
-              <h3>Quem somos?</h3>
-              <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
-            </div>
-            <div class="col-md-4">
-              <h3>Links &Uacute;teis</h3>
-              <div id="links">                
-                  <ul>
-                      <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
-                      <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
-                      <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h3>Segue-nos</h3>
-              <div class="btn-group-wrap">
-                <div class="btn-group">
-                  <a class="btn btn-default" href="http://www.facebook.com/neecum/" target="_blank">
-                    <i class="fa fa-facebook" title="Facebook"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://www.instagram.com/neecum_oficial/" target="_blank">
-                    <i class="fa fa-instagram" title="Instagram"></i>
-                  </a>  
-                  <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
-                    <i class="fa fa-linkedin" title="Linkedin"></i>
-                  </a>
-                  <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
-                    <i class="fa fa-github" title="Github"></i>
-                  </a>
-                </div>
-              </div>
-              
-              
-            </div>
-        </div>
-    </div>
-      <br>
-      
-      <!-- Footer -->
+     <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; NETIUM</p>
+          <div class="container-fluid">
+            <div id="row2"class="row">          
+              <div class="col-md-4">
+                <h3 class="h3-footer">Quem somos?</h3>
+                <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Links &Uacute;teis</h3>
+                <div id="links">                
+                    <ul>
+                        <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
+                        <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
+                        <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
+                    </ul>
                 </div>
-            </div>
-            <!-- /.row -->
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3-footer">Segue-nos</h3>
+                <div class="btn-group-wrap">
+                  <div class="btn-group">
+                    <a class="btn btn-default" href="http://www.facebook.com/neecum/" target="_blank">
+                      <i class="fa fa-facebook" title="Facebook"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://www.instagram.com/neecum_oficial/" target="_blank">
+                      <i class="fa fa-instagram" title="Instagram"></i>
+                    </a>  
+                    <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
+                      <i class="fa fa-linkedin" title="Linkedin"></i>
+                    </a>
+                    <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
+                      <i class="fa fa-github" title="Github"></i>
+                    </a>
+                  </div>
+                </div>
+                <p id="copyright">Copyright &copy; NETIUM</p>
+              </div>
+           </div>
         </footer>
                 
     
