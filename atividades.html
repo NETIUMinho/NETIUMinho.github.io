@@ -1,117 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt">
-    
-  <head>          
-      <link href="files/shift/shift.css" rel="stylesheet"/>
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/bootstrap.css"/>
+    <head>
+        <title>NETIum</title>
+        <link href="files/shift/shift.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
       
-      <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
-      <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-      <link rel="stylesheet" href="css/animate.css">
-      <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
-      
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-      
-      <title>NETIUM</title>
-      <link rel="shortcut icon" href="files/img/logo.png" />
-      <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="13f92a27-2760-4530-b07c-faa41f673e09";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-      
-  </head>
+        <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
+        <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="files/font-awesome/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link rel="shortcut icon" href="files/img/logo.png" />
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="13f92a27-2760-4530-b07c-faa41f673e09";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118671058-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-118671058-1');
+        </script>
+        
+        <script> 
+        $(function(){
+          $(".navigation_bar").load("navbar.html");
+          $("footer").load("footer.html"); 
+        });
+        </script> 
+    </head>
   <body>                           
-       <div class="navigation_bar">
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header page-scroll">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              <!-- Logo -->
-              </button>
-              <a class="navbar-brand page-scroll" href="http://netium.eng.uminho.pt"><img src="files/img/logo_site.png" alt="NETIUM">
-              </a>
-            </div>
-            <div id="navbar3" class="navbar-collapse collapse">
-              <!-- Items of Navbar -->
-              <ul class="nav navbar-nav navbar-right"> 
-                <li><a class="page-scroll" href="about.html">SOBRE</a></li>
-                <li><a class="page-scroll" href="team.html">EQUIPA</a></li>
-                <li><a class="page-scroll" href="partners.html">PARCERIAS</a></li>
-                <li class="dropdown page-scroll active">
-                  <a href="" class="dropdown-toggle" id="drop" data-toggle="dropdown">DOCUMENTOS <b class="caret"></b></a>
-                  <ul class="dropdown-menu" aria-labelledby="drop">
-                    <li><a href="regulamento.html">Regulamento Interno</a></li>
-                    <li><a href="contas.html">Relat&oacute;rio de Contas</a></li>
-                    <li><a href="atividades.html">Relat&oacute;rio de Atividades</a></li>
-                  </ul>   
-                </li>
-                <li id="link-contactos" ><a class="page-scroll" href="contacts.html">CONTACTOS</a></li>
-                <li id="li-socio"><a  id="navbar-socio" class="page-scroll" href="http://netium.typeform.com/to/INXrUB" target="_blank">TORNA-TE SÓCIO</a></li>
-
-              </ul>
-              
-            </div>
-            <!--/.nav-collapse -->
-          </div>
-          <!--/.container-fluid -->
-        </nav>
-      </div> <!-- End of NavBar-->
-
+      <div class="navigation_bar">
+      </div>
     <br><br><br><br><br><br><br><br><br><br><br>
     <h1 id="h1-notavailable"> Documento indispon&iacute;vel de momento!</h1>
     <br><br><br><br><br><br><br><br><br><br>
-    
-   
-    
-    <!-- Footer -->
-        <footer>
-          <div class="container-fluid">
-            <div id="row2"class="row">          
-              <div class="col-md-4">
-                <h3 class="h3-footer">Quem somos?</h3>
-                <p id="p_about">N&uacute;cleo de Estudantes de Engenharia de Telecomunica&ccedil;&otilde;es e Inform&aacute;tica da Universidade do Minho.</p>
-              </div>
-              <div class="col-md-4">
-                <h3 class="h3-footer">Links &Uacute;teis</h3>
-                <div id="links">                
-                    <ul>
-                        <li><a href="http://mieti.eng.uminho.pt/" target="_blank">MIETI</a></li>
-                        <li><a href="http://alunos.uminho.pt/PT" target="_blank">Portal do Aluno</a></li>
-                        <li><a href="http://elearning.uminho.pt/" target="_blank">E-Learning</a></li>
-                    </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <h3 class="h3-footer">Segue-nos</h3>
-                <div class="btn-group-wrap">
-                  <div class="btn-group">
-                    <a class="btn btn-default" href="http://www.facebook.com/netiuminho" target="_blank">
-                      <i class="fa fa-facebook" title="Facebook"></i>
-                    </a>
-                    <a class="btn btn-default" href="http://www.instagram.com/netiuminho" target="_blank">
-                      <i class="fa fa-instagram" title="Instagram"></i>
-                    </a>  
-                    <a class="btn btn-default" href="http://www.linkedin.com/company-beta/11237322/" target="_blank">
-                      <i class="fa fa-linkedin" title="Linkedin"></i>
-                    </a>
-                    <a class="btn btn-default" href="http://github.com/NETIUMinho" target="_blank">
-                      <i class="fa fa-github" title="Github"></i>
-                    </a>
-                  </div>
-                </div>
-                <p id="copyright">Copyright &copy; NETIUM</p>
-              </div>
-           </div>
-        </footer>
-                
-    
-      <script src="js/jquery-3.2.1.min.js"></script>
-	 <!-- Latest compiled and minified JavaScript -->
-	 <script src="js/bootstrap.min.js"></script>
-       
+    <footer>
+    </footer>
   </body>
 </html>

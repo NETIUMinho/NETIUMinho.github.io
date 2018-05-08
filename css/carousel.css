@@ -75,3 +75,12 @@
               transform: translate3d(0, 0, 0);
     }
 }
+
+
+/*Miguel Pereira*/
+
+
+.carousel .item img {
+  max-height: 768px;
+  min-width: auto;
+}
